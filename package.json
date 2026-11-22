@@ -1,0 +1,30 @@
+{
+  "name": "handoffpack",
+  "version": "0.1.0",
+  "description": "Generate structured Git repo handoff prompts and verify post-handoff state across Codex, Antigravity, and Claude.",
+  "type": "module",
+  "bin": {
+    "handoffpack": "./bin/handoffpack.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "handoff",
+    "git",
+    "codex",
+    "antigravity",
+    "claude",
+    "cli"
+  ],
+  "license": "MIT"
+}
